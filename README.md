@@ -1,4 +1,21 @@
-# 多看的epub格式
+# About this repository
+
+众所周知多看的EPUB格式十分惊艳，尤其是在图片和注释方面。因此我对多看EPUB内的css和xhtml进行了分析。
+
+- 库中文件说明
+  - 多看EPUB原CSS文件：[duokanstyle.css](https://github.com/Eninix/book_epub_c/blob/master/duokanstyle.css)
+  - 必要的CSS代码总结：[duokancpt.css](https://github.com/Eninix/book_epub_c/blob/master/duokancpt.css)
+  - 自制的sigil用模板：[temple-dk.css](https://github.com/Eninix/book_epub_c/blob/master/temple-dk.css)
+
+- 如何下载
+  - jsdelivr (适合国内访问)
+    - [temple-dk.css](https://cdn.jsdelivr.net/gh/Eninix/book_epub_c/temple-dk.css)
+  - github (直接从GitHubRaw下载)
+    - [temple-dk.css](https://raw.githubusercontent.com/Eninix/book_epub_c/master/temple-dk.css)
+
+
+
+# 多看的epub格式css源码分析
 
 ## 多看格式
 
