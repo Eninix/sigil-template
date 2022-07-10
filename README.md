@@ -1,6 +1,6 @@
 # About this repository
 
-众所周知多看的EPUB格式十分惊艳，尤其是在图片和注释方面。因此我对多看EPUB内的css和xhtml进行了分析。
+众所周知多看的EPUB格式十分惊艳，尤其是在图片和注释方面。但是多看的epub制作工具却只有windows版本。因此我对多看EPUB内的css和xhtml进行了分析，总结出了一份css使之可以在sigil中使用，这样就可以在Linux等其他操作系统中制作出像多看这么惊艳的EPUB了。
 
 - 库中文件说明
   - 多看EPUB原CSS文件：[duokanstyle.css](https://github.com/Eninix/book_epub_c/blob/master/duokanstyle.css)
@@ -13,13 +13,16 @@
   - github (直接从GitHubRaw下载)
     - [temple-dk.css](https://raw.githubusercontent.com/Eninix/book_epub_c/master/temple-dk.css)
 
+**使用时可以配合本README的后半部分分析。**  
+**制作的EPUB在多看阅读上才能展现全部效果**
 
 
-# 多看的epub格式css源码分析
 
-## 多看格式
+# DuokanEpub's css source code analysis
 
-此处只列举常用的。
+## 多看特有格式
+
+此处只列举常用的。（这些格式只在多看中有用）
 
 - duokan-text-indent: 0em;
 	- 为多看特有的首行缩进
