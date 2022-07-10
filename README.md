@@ -3,17 +3,17 @@
 众所周知多看的EPUB格式十分惊艳，尤其是在图片和注释方面。但是多看的epub制作工具却只有windows版本。因此我对多看EPUB内的css和xhtml进行了分析，总结出了一份css使之可以在sigil中使用，这样就可以在Linux等其他操作系统中制作出像多看这么惊艳的EPUB了。
 
 - 库中文件说明
-  - 多看EPUB原CSS文件：[duokanstyle.css](https://github.com/Eninix/book_epub_c/blob/master/duokanstyle.css)
-  - 必要的CSS代码总结：[duokancpt.css](https://github.com/Eninix/book_epub_c/blob/master/duokancpt.css)
-  - 自制的sigil用模板：[temple-dk.css](https://github.com/Eninix/book_epub_c/blob/master/temple-dk.css)
+  - 多看EPUB原CSS文件：[duokanstyle.css](https://github.com/Eninix/sigil-template/blob/master/duokanstyle.css)
+  - 必要的CSS代码总结：[duokancpt.css](https://github.com/Eninix/sigil-template/blob/master/duokancpt.css)
+  - 自制的sigil用模板：[temple-dk.css](https://github.com/Eninix/sigil-template/blob/master/temple-dk.css)
 
 - 如何下载
   - jsdelivr (适合国内访问)
-    - [temple-dk.css](https://cdn.jsdelivr.net/gh/Eninix/book_epub_c/temple-dk.css)
+    - [temple-dk.css](https://cdn.jsdelivr.net/gh/Eninix/sigil-template/temple-dk.css)
   - github (直接从GitHubRaw下载)
-    - [temple-dk.css](https://raw.githubusercontent.com/Eninix/book_epub_c/master/temple-dk.css)
+    - [temple-dk.css](https://raw.githubusercontent.com/Eninix/sigil-template/master/temple-dk.css)
 
-**使用时可以配合本README的后半部分分析。**  
+**使用时可以配合本README的后半部分分析**  
 **制作的EPUB在多看阅读上才能展现全部效果**
 
 
