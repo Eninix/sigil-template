@@ -79,8 +79,84 @@ h6.chapter-title6 {
 	color: #91531d;
 }
 
-
-
+/* 章标题居左带细线 */
+h2.bodycontent-title-2 {
+	color: #1f4a92;
+	font-size: 22px;
+	font-family: "DK-XIAOBIAOSONG", "方正小标宋简体";
+	font-weight: normal;
+	border-bottom: solid 1px #1f4a92;
+	padding: 0.2em 0em 0.5em 0em;
+	duokan-text-indent: 0em;
+	text-indent: 0em;
+}
+/* 章标题居左带粗线 */
+h2.bodycontent-prefix-text-top {
+	font-family: "DK-XIAOBIAOSONG", "方正小标宋简体";
+	font-size: 22px;
+	color: #91531d;
+	font-weight: normal;
+	margin-top: 2%;
+	duokan-text-indent: 0em;
+	text-indent: 0em;
+	padding-bottom: 1em;
+	border-bottom: solid 4px #e8c696;
+}
+/* 章标题居右 */
+h2.preface-title-two {
+	font-size: 22px;
+	font-family: "DK-XIAOBIAOSONG", "方正小标宋简体";
+	text-align: right;
+	font-weight: normal;
+	color: #cf181a;
+	margin-bottom: 3em;
+}
+/* 章标题居中带虚线 */
+h2.chapter-title-center {
+	font-family: "DK-XIAOBIAOSONG", "方正小标宋简体";
+	font-weight: normal;
+	font-size: 22px;
+	color: #478686;
+	text-align: center;
+	border-bottom: dashed 1px #478686;
+	margin-bottom: 2em;
+	padding: 0.3em 0em 0.3em 0em;
+}
+/* 二级标题 */
+h3.title2 {
+	font-family: "DK-HEITI", "方正兰亭黑简体", "黑体";
+	font-size: 18px;
+	duokan-text-indent: 0em;
+	text-indent: 0em;
+	font-weight: normal;
+	color: #91531d;
+	margin-top: 2.2em;
+	margin-bottom: 1.4em;
+}
+/* 三级标题 */
+h4.title3 {
+	font-family: "DK-HEITI", "方正兰亭黑简体", "黑体";
+	font-size: 16px;
+	duokan-text-indent: 0em;
+	text-indent: 0em;
+	font-weight: normal;
+	color: #91531d;
+	margin-left: 2em;
+	margin-top: 2.2em;
+	margin-bottom: 1.4em;
+}
+/* 扉页章标题居右 */
+h2.feiye-zi {
+	font-family: "DK-HEITI", "方正兰亭黑简体", "黑体";
+	text-align: right;
+	font-size: 16px;
+	color: #2F4F4F;
+	margin-top: 30%;
+	padding-right: 0.5em;
+	border-right: solid 2px #2F4F4F;
+	padding-bottom: 0.3em;
+	font-weight: normal;
+}
 
 
 
