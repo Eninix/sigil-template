@@ -37,7 +37,7 @@ img.duokan-image-note {
 <body>
   <p><img alt="" src="../Images/Cover.jpg" /></p> 
 </body>
-</html>
+</html> 
 ```
 
 
