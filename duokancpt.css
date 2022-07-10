@@ -1,0 +1,271 @@
+/* 
+duokan-text-indent: 0em;
+为多看特有的首行缩进
+0em 首行不缩进
+2em 首行缩进2字符
+*/
+
+
+/* ----------------------------------------------------------------------------------------------------
+段落样式
+*/
+
+/* 一级标题小标宋居中 */
+h1.auxiliary-title1 {
+	font-family: "DK-XIAOBIAOSONG", "方正小标宋简体";
+	font-size: 28px;
+	text-align: center;
+	color: #91531d;
+	font-weight: normal;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+}
+/* 二级标题 */
+h2.chapter-title2 {
+	font-family: "DK-XIAOBIAOSONG", "方正小标宋简体";
+	font-size: 26px;
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+	color: #91531d;
+	font-weight: normal;
+	margin-top: 2em;
+	margin-bottom: 1.8em;
+}
+/* 三级标题 */
+h3.chapter-title3 {
+	font-family: "DK-XIAOBIAOSONG", "方正小标宋简体";
+	font-size: 22px;
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+	color: #91531d;
+	font-weight: normal;
+	margin-top: 2em;
+	margin-bottom: 1.8em;
+}
+/* 内文四级标题 */
+h4.chapter-title4 {
+	font-size: 20px;
+	font-family: "DK-HEITI", "方正兰亭黑简体", "黑体";
+	font-weight: normal;
+	duokan-text-indent: 0em;
+	text-indent: 0em;
+	margin-top: 2em;
+	margin-bottom: 1.8em;
+	color: #91531d;
+}
+/* 内文五级标题 */
+h5.chapter-title5 {
+	font-size: 18px;
+	font-family: "DK-HEITI", "方正兰亭黑简体", "黑体";
+	font-weight: normal;
+	duokan-text-indent: 0em;
+	text-indent: 0em;
+	border-left: solid 5px #d9d9d9;
+	padding-left: 0.7em;
+	margin-top: 2em;
+	margin-bottom: 1.8em;
+	color: #91531d;
+}
+/* 内文六级标题 */
+h6.chapter-title6 {
+	font-size: 16px;
+	font-family: "DK-HEITI", "方正兰亭黑简体", "黑体";
+	font-weight: normal;
+	duokan-text-indent: 0em;
+	text-indent: 0em;
+	margin-top: 2em;
+	margin-bottom: 1.8em;
+	margin-left: 2em;
+	color: #91531d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 正文宋体 */
+p.bodycontent-text {
+	font-family: "DK-SONGTI", "方正宋三简体", "方正书宋", "宋体";
+	font-size: 16px;
+	duokan-text-indent: 2em;
+	text-indent: 2em;
+}
+/* 正文宋体-强制左对齐 */
+p.bodycontent-text-left {
+	font-family: "DK-SONGTI", "方正宋三简体", "方正书宋", "宋体";
+	font-size: 16px;
+	text-align: left;
+	duokan-text-indent: 2em;
+	text-indent: 2em;
+}
+/* 正文宋体-强制左对齐顶格 */
+p.bodycontent-text-left0 {
+	font-family: "DK-SONGTI", "方正宋三简体", "方正书宋", "宋体";
+	font-size: 16px;
+	text-align: left;
+	duokan-text-indent: 0em;
+	text-indent: 0em;
+}
+
+/* 正文等线体 */
+p.bodycontent-text-ds {
+	font-family: "DK-DENGXIAN";
+	font-size: 16px;
+	duokan-text-indent: 2em;
+	text-indent: 2em;
+}
+/* 正文黑体 */
+p.bodycontent-text-ht {
+	font-family: "DK-HEITI", "方正兰亭黑简体", "黑体";
+	font-size: 16px;
+	duokan-text-indent: 2em;
+	text-indent: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 引文 */
+p.bodycontent-reference-text {
+	font-family: "DK-KAITI", "方正楷体", "华文楷体", "楷体";
+	font-size: 16px;
+	duokan-text-indent: 2em;
+	text-indent: 2em;
+}
+/* 引文黑体标题居中 */
+p.reference-title {
+	font-family: "DK-HEITI", "方正兰亭黑简体", "黑体";
+	font-size: 16px;
+	text-align: center;
+}
+/* 引文楷体 */
+p.reference-text {
+	font-family: "DK-KAITI", "方正楷体","华文楷体","楷体";
+	font-size: 16px;
+	text-indent: 2em;
+	duokan-text-indent: 2em;
+}
+/* 引文楷体顶格 */
+p.letter-head {
+	font-family: "DK-KAITI", "方正楷体", "华文楷体", "楷体";
+	font-size: 16px;
+	duokan-text-indent: 0em;
+	text-indent: 0em;
+}
+
+
+
+
+
+
+
+/* 版权信息页标题 */
+h4.duokan-copyright-title {
+	font-size: 24px;
+	font-family: "DK-XIAOBIAOSONG", "方正小标宋简体";
+	font-weight: normal;
+	text-align: center;
+}
+/* 版权信息页正文 */
+p.duokan-copyright-bodytext {
+	font-family: "DK-SONGTI", "方正宋三简体","方正书宋","宋体";
+	font-size: 16px;
+	text-indent: 2em;
+	duokan-text-indent: 2em;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------
+图片相关样式
+*/
+
+/* 多看注释 */
+img.duokan-footnote {
+	width: 0.8em;
+}
+
+/* 图片-无图说 */
+img.duokan-image {
+	width: 100%;
+}
+/* 图片-有图说 */
+img.duokan-image-note {
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 0.5em;
+}
+
+/* 图说楷体居左顶格 */
+p.duokan-note {
+	font-family: "DK-KAITI", "方正楷体", "华文楷体", "楷体";
+	font-size: 14px;
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+	text-align: justify;
+}
+/* 图说楷体居中 */
+p.duokan-note-center {
+	font-family: "DK-KAITI", "方正楷体", "华文楷体", "楷体";
+	font-size: 14px;
+	text-align: center;
+}
+/* 图说楷体居右 */
+p.duokan-note-right {
+	font-family: "DK-KAITI", "方正楷体", "华文楷体", "楷体";
+	font-size: 14px;
+	text-align: right;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------
+并列图相关样式
+*/
+
+/* 并列图表格样式 */
+table.duokan-gallery-image {
+	font-size: 1em;
+	width: 100%;
+	margin: 1em auto 1em auto;
+	border-spacing: 0.3em 0.3em;
+}
+/* 并列图单元格样式 */
+td.duokan-gallery-cell {
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+}
+/* 格内图样式 */
+div.duokan-in-cell {
+	width: 100%;
+}
