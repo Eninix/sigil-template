@@ -1,3 +1,6 @@
+# 多看电子书CSS模板
+
+
 # About this repository
 
 众所周知多看的EPUB格式十分惊艳，尤其是在图片和注释方面。但是多看的epub制作工具却只有windows版本。因此我对多看EPUB内的css和xhtml进行了分析，总结出了一份css使之可以在sigil中使用，这样就可以在Linux等其他操作系统中制作出像多看这么惊艳的EPUB了。
