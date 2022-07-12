@@ -7,13 +7,13 @@
 - 库中文件说明
   - 多看EPUB原CSS文件：[duokanstyle.css](https://github.com/Eninix/sigil-template/blob/master/duokanstyle.css)
   - 必要的CSS代码总结：[duokancpt.css](https://github.com/Eninix/sigil-template/blob/master/duokancpt.css)
-  - 自制的sigil用模板：[temple-dk.css](https://github.com/Eninix/sigil-template/blob/master/temple-dk.css)
+  - 自制的sigil用模板：[dk-template.css](https://github.com/Eninix/sigil-template/blob/master/temple-dk.css)
 
 - 如何下载
   - jsdelivr (适合国内访问)
-    - [temple-dk.css](https://cdn.jsdelivr.net/gh/Eninix/sigil-template/temple-dk.css)
+    - [temple-dk.css](https://cdn.jsdelivr.net/gh/Eninix/sigil-template/dk-template.css)
   - github (直接从GitHubRaw下载)
-    - [temple-dk.css](https://raw.githubusercontent.com/Eninix/sigil-template/master/temple-dk.css)
+    - [temple-dk.css](https://raw.githubusercontent.com/Eninix/sigil-template/master/dk-template.css)
 
 **使用时可以配合本README的后半部分分析**  
 **制作的EPUB在多看阅读上才能展现全部效果**
