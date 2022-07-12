@@ -1,13 +1,14 @@
-.songti {
-	font-family: "DK-SONGTI", "宋体", "方正宋三简体", "方正书宋";
-}
-.heiti {
-	font-family: "DK-HEITI", "黑体", "方正兰亭黑简体";
-}
-.kaiti {
-	font-family: "DK-KAITI", "楷体", "方正楷体", "华文楷体";
+/* 多看注释 */
+img.duokan-footnote {
+	width: 0.8em;
 }
 
+/* 单图片容器 */
+.duokan-image-single {
+	width:100%;
+	text-align:center;
+	margin:0!important;
+}
 
 
 
@@ -17,13 +18,13 @@ p.text {
 	duokan-text-indent: 2em;
 	text-indent: 2em;
 }
+
 p.text0 {
 	/* 正文 首行不缩进 */
 	font-size: 16px;
 	duokan-text-indent: 0em;
 	text-indent: 0em;
 }
-
 
 
 
@@ -34,6 +35,7 @@ p.reference {
 	duokan-text-indent: 2em;
 	text-indent: 2em;
 }
+
 p.reference0 {
 	/* 引文 首行不缩进 */
 	font-family: "DK-KAITI", "楷体", "方正楷体", "华文楷体";
@@ -41,13 +43,13 @@ p.reference0 {
 	duokan-text-indent: 0em;
 	text-indent: 0em;
 }
+
 p.reference-center {
 	/* 引文 居中 */
 	font-family: "DK-KAITI", "楷体", "方正楷体", "华文楷体";
 	font-size: 16px;
 	text-align: center;
 }
-
 
 
 
@@ -61,6 +63,7 @@ h2.t1 {
 	duokan-text-indent: 0em;
 	text-indent: 0em;
 }
+
 h2.t1b {
 	/* 正文 标题居左带粗线 */
 	font-size: 22px;
@@ -72,6 +75,7 @@ h2.t1b {
 	padding-bottom: 1em;
 	border-bottom: solid 4px #e8c696;
 }
+
 h2.t1r {
 	/* 正文 标题居右 */
 	font-size: 22px;
@@ -80,7 +84,8 @@ h2.t1r {
 	color: #cf181a;
 	margin-bottom: 3em;
 }
-h2.t1c{
+
+h2.t1c {
 	/* 正文 标题居中带虚线 */
 	font-weight: normal;
 	font-size: 22px;
@@ -90,6 +95,7 @@ h2.t1c{
 	margin-bottom: 2em;
 	padding: 0.3em 0em 0.3em 0em;
 }
+
 h3.t2 {
 	/* 正文 二级标题 */
 	font-size: 18px;
@@ -100,6 +106,7 @@ h3.t2 {
 	margin-top: 2.2em;
 	margin-bottom: 1.4em;
 }
+
 h4.t3 {
 	/* 正文 三级标题 */
 	font-size: 16px;
@@ -114,7 +121,6 @@ h4.t3 {
 
 
 
-
 /* 版权信息页标题 */
 h4.duokan-copyright-title {
 	font-size: 24px;
@@ -122,28 +128,27 @@ h4.duokan-copyright-title {
 	font-weight: normal;
 	text-align: center;
 }
+
 /* 版权信息页正文 */
 p.duokan-copyright-bodytext {
-	font-family: "DK-SONGTI", "方正宋三简体","方正书宋","宋体";
+	font-family: "DK-SONGTI", "方正宋三简体", "方正书宋", "宋体";
 	font-size: 16px;
 	text-indent: 2em;
 	duokan-text-indent: 2em;
 }
 
-/* 多看注释 */
-img.duokan-footnote {
-	width: 0.8em;
-}
+
 
 /* 图片-无图说 */
 img.duokan-image {
 	width: 100%;
 }
+
 /* 图片-有图说 */
 img.duokan-image-note {
 	width: 100%;
 	font-size: 16px;
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 }
 
 /* 图说楷体居左顶格 */
@@ -154,12 +159,14 @@ p.duokan-note {
 	duokan-text-indent: 0em;
 	text-align: justify;
 }
+
 /* 图说楷体居中 */
 p.duokan-note-center {
 	font-family: "DK-KAITI", "方正楷体", "华文楷体", "楷体";
 	font-size: 14px;
 	text-align: center;
 }
+
 /* 图说楷体居右 */
 p.duokan-note-right {
 	font-family: "DK-KAITI", "方正楷体", "华文楷体", "楷体";
@@ -174,11 +181,13 @@ table.duokan-gallery-image {
 	margin: 1em auto 1em auto;
 	border-spacing: 0.3em 0.3em;
 }
+
 /* 并列图单元格样式 */
 td.duokan-gallery-cell {
 	text-indent: 0em;
 	duokan-text-indent: 0em;
 }
+
 /* 格内图样式 */
 div.duokan-in-cell {
 	width: 100%;
@@ -186,17 +195,17 @@ div.duokan-in-cell {
 
 
 
+.songti {
+	font-family: "DK-SONGTI", "方正宋三简体", "方正书宋", "宋体";
+}
 
+.heiti {
+	font-family: "DK-HEITI", "方正兰亭黑简体", "黑体";
+}
 
-
-
-
-
-
-
-
-
-
+.kaiti {
+	font-family: "DK-KAITI", "方正楷体", "华文楷体", "楷体";
+}
 
 
 
@@ -209,6 +218,7 @@ h1.chapter-t1 {
 	margin-top: 2.5em;
 	margin-bottom: 2.5em;
 }
+
 h2.chapter-t2 {
 	/* 二级标题 */
 	font-size: 26px;
@@ -219,6 +229,7 @@ h2.chapter-t2 {
 	margin-top: 2em;
 	margin-bottom: 1.8em;
 }
+
 h3.chapter-t3 {
 	/* 三级标题 */
 	font-size: 22px;
@@ -229,6 +240,7 @@ h3.chapter-t3 {
 	margin-top: 2em;
 	margin-bottom: 1.8em;
 }
+
 h4.chapter-t4 {
 	/* 四级标题 */
 	font-size: 20px;
@@ -239,6 +251,7 @@ h4.chapter-t4 {
 	margin-bottom: 1.8em;
 	color: #91531d;
 }
+
 h5.chapter-t5 {
 	/* 五级标题 */
 	font-size: 18px;
@@ -251,6 +264,7 @@ h5.chapter-t5 {
 	margin-bottom: 1.8em;
 	color: #91531d;
 }
+
 h6.chapter-t6 {
 	/* 六级标题 */
 	font-size: 16px;
