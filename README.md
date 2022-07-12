@@ -7,7 +7,7 @@
 - 库中文件说明
   - 多看EPUB原CSS文件：[duokanstyle.css](https://github.com/Eninix/sigil-template/blob/master/duokanstyle.css)
   - 必要的CSS代码总结：[duokancpt.css](https://github.com/Eninix/sigil-template/blob/master/duokancpt.css)
-  - 自制的sigil用模板：[dk-template.css](https://github.com/Eninix/sigil-template/blob/master/temple-dk.css)
+  - 自制的sigil用模板：[dk-template.css](https://github.com/Eninix/sigil-template/blob/master/dk-template.css)
 
 - 如何下载
   - jsdelivr (适合国内访问)
