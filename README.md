@@ -11,9 +11,9 @@
 
 - 如何下载
   - jsdelivr (适合国内访问)
-    - [temple-dk.css](https://cdn.jsdelivr.net/gh/Eninix/sigil-template/dk-template.css)
+    - [dk-template.css](https://cdn.jsdelivr.net/gh/Eninix/sigil-template/dk-template.css)
   - github (直接从GitHubRaw下载)
-    - [temple-dk.css](https://raw.githubusercontent.com/Eninix/sigil-template/master/dk-template.css)
+    - [dk-template.css](https://raw.githubusercontent.com/Eninix/sigil-template/master/dk-template.css)
 
 **使用时可以配合本README的后半部分分析**  
 **制作的EPUB在多看阅读上才能展现全部效果**
@@ -33,6 +33,33 @@
 
 - class="duokan-image-single"
 	- 容器中有且只有只有一个图片
+
+## 对Epub中后缀为.opf的元数据文件的编辑
+
+***这是非常关键的一步！！！***  
+***这是非常关键的一步！！！***  
+***这是非常关键的一步！！！***
+
+如下例子所示，在properties属性中添加一些特殊的东西。
+
++ duokan-page-fullscreen //全屏插图页
++ duokan-page-fitwindow //上下居中插图页
++ duokan-page-fullscreen-spread-left //延伸全屏插图页
+
+```html
+<spine>
+    <itemref idref="cover.xhtml" properties="duokan-page-fullscreen"/>
+    <itemref idref="title.xhtml"/>
+    <itemref idref="message.xhtml"/>
+    <itemref idref="summary.xhtml"/>
+    <itemref idref="illus-0.xhtml" properties="duokan-page-fullscreen"/>
+    <itemref idref="illus-1.xhtml" properties="duokan-page-fitwindow"/>
+    <itemref idref="contents.xhtml"/>
+    <itemref idref="Chapter001.xhtml"/>
+    <itemref idref="Chapter002.xhtml"/>
+    <itemref idref="Chapter003.xhtml"/>
+  </spine>
+```
 
 ## 图片
 
@@ -101,7 +128,7 @@ img.duokan-image-note {
   </table>
 ```
 
-- 使用表格实现
+- 使用HTML的表格元素实现
 
 相关的css如下：
 
